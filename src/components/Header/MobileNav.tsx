@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import StyledButton from "../StyledButton";
 
 function MobileNav() {
   return (
@@ -30,12 +31,7 @@ function MobileNav() {
           <button type="button">Projects</button>
         </li>
         <li>
-          <button
-            type="button"
-            className="rounded-full bg-userYellow px-8 py-4 font-userHeading text-[1rem] text-black"
-          >
-            CONTACT
-          </button>
+          <StyledButton color="yellow" text="CONTACT" />
         </li>
       </ul>
     </motion.nav>

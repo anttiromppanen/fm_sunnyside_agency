@@ -10,8 +10,8 @@ function Header() {
       bg-no-repeat px-6 md:min-h-screen md:bg-userHeaderBgDesktop md:px-12"
     >
       <Navbar />
-      <div className="mt-24 flex flex-col items-center gap-y-14 text-center">
-        <h1 className="font-userHeading text-5xl font-bold tracking-[.1em] text-white">
+      <div className="mt-24 flex flex-col items-center gap-y-14 text-center md:mt-28">
+        <h1 className="font-userHeading text-5xl font-bold tracking-[.1em] text-white md:text-6xl">
           WE ARE CREATIVES
         </h1>
         <motion.img
@@ -26,6 +26,7 @@ function Header() {
             repeatDelay: 2,
             delay: 1,
           }}
+          className="select-none"
         />
       </div>
     </header>

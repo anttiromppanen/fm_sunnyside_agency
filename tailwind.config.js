@@ -24,6 +24,7 @@ export default {
         userLightCardBgColor: "hsl(26, 100%, 99%)",
         userGrayHeadingColor: "hsl(210, 4%, 67%)",
         userTextColor: "hsl(251, 4%, 50%)",
+        userWhite50Alpha: "hsla(0, 0%, 100%, 0.3)",
       },
       backgroundImage: {
         userHeaderBgMobile: "url('/mobile/image-header.jpg')",
