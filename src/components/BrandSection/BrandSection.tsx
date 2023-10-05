@@ -4,12 +4,16 @@ import BrandItem from "./BrandItem";
 
 function BrandSection() {
   return (
-    <div className="">
+    <div className="md:grid grid-cols-2 auto-rows-[400px] lg:auto-rows-[600px]">
       <BrandItem
         size="sm"
         bgImageStyle="bg-userYellowEggBgMobile md:bg-userYellowEggBgDesktop"
       />
-      <BrandItem size="md" bgImageStyle="bg-userLightCardBgColor">
+      <BrandItem 
+        size="md" 
+        order="-1"
+        bgImageStyle="bg-userLightCardBgColor"
+      >
         <PlainBrandInformationCard
           heading="Transform your brand"
           text="
@@ -25,6 +29,7 @@ function BrandSection() {
         <PlainBrandInformationCard
           buttonColor="red"
           heading="Stand out to the right audience"
+          animationLeft
           text="
             Using a collaborative formula of designers, researchers, photographers, videographers, 
             and copywriters, we’ll build and extend your brand in digital places."
