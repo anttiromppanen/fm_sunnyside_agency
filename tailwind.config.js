@@ -33,8 +33,8 @@ export default {
         userRedGlassBgMobile: "url('/mobile/image-stand-out.jpg')",
         userRedGlassBgDesktop: "url('/desktop/image-stand-out.jpg')",
 
-        userGraphicDesignBgMobile: "url('mobile/image-graphic-design.jpg')",
-        userGraphicDesignBgDesktop: "url('desktop/image-graphic-design.jpg')",
+        userGraphicDesignBgMobile: "url('/mobile/image-graphic-design.jpg')",
+        userGraphicDesignBgDesktop: "url('/desktop/image-graphic-design.jpg')",
 
         userPhotographyBgMobile: "url('/mobile/image-photography.jpg')",
         userPhotographyBgDesktop: "url('/desktop/image-photography.jpg')",
