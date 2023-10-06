@@ -36,21 +36,22 @@ export default {
         userGraphicDesignBgMobile: "url('mobile/image-graphic-design.jpg')",
         userGraphicDesignBgDesktop: "url('desktop/image-graphic-design.jpg')",
 
-        userPhotographyBgMobile: "url('mobile/image-photography.jpg')",
-        userPhotographyBgDesktop: "url('desktop/image-photography.jpg')",
+        userPhotographyBgMobile: "url('/mobile/image-photography.jpg')",
+        userPhotographyBgDesktop: "url('/desktop/image-photography.jpg')",
 
-        userMilkBottlesBgMobile: "url('mobile/image-gallery-milkbottles.jpg')",
+        userMilkBottlesBgMobile: "url('/mobile/image-gallery-milkbottles.jpg')",
         userMilkBottlesBgDesktop:
-          "url('desktop/image-gallery-milkbottles.jpg')",
+          "url('/desktop/image-gallery-milkbottles.jpg')",
 
-        userOrangeBgMobile: "url('mobile/image-gallery-orange.jpg')",
-        userOrangeBgDesktop: "url('desktop/image-gallery-orange.jpg')",
+        userOrangeBgMobile: "url('/mobile/image-gallery-orange.jpg')",
+        userOrangeBgDesktop: "url('/desktop/image-gallery-orange.jpg')",
 
-        userIceCreamBgMobile: "url('mobile/image-gallery-cone.jpg')",
-        userIceCreamBgDesktop: "url('desktop/image-gallery-cone.jpg')",
+        userIceCreamBgMobile: "url('/mobile/image-gallery-cone.jpg')",
+        userIceCreamBgDesktop: "url('/desktop/image-gallery-cone.jpg')",
 
-        userSugarCubesBgMobile: "url('mobile/image-gallery-sugar-cubes.jpg')",
-        userSugarCubesBgDesktop: "url('desktop/image-gallery-sugar-cubes.jpg')",
+        userSugarCubesBgMobile: "url('/mobile/image-gallery-sugar-cubes.jpg')",
+        userSugarCubesBgDesktop:
+          "url('/desktop/image-gallery-sugar-cubes.jpg')",
       },
     },
   },
