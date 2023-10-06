@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontSize: {
@@ -43,7 +40,8 @@ export default {
         userPhotographyBgDesktop: "url('desktop/image-photography.jpg')",
 
         userMilkBottlesBgMobile: "url('mobile/image-gallery-milkbottles.jpg')",
-        userMilkBottlesBgDesktop: "url('desktop/image-gallery-milkbottles.jpg')",
+        userMilkBottlesBgDesktop:
+          "url('desktop/image-gallery-milkbottles.jpg')",
 
         userOrangeBgMobile: "url('mobile/image-gallery-orange.jpg')",
         userOrangeBgDesktop: "url('desktop/image-gallery-orange.jpg')",
@@ -53,8 +51,8 @@ export default {
 
         userSugarCubesBgMobile: "url('mobile/image-gallery-sugar-cubes.jpg')",
         userSugarCubesBgDesktop: "url('desktop/image-gallery-sugar-cubes.jpg')",
-      }
+      },
     },
   },
   plugins: [],
-}
+};

@@ -1,5 +1,7 @@
 import BrandSection from "./components/BrandSection/BrandSection";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import ImagesGrid from "./components/ImagesGrid/ImagesGrid";
 import TestimonialsSection from "./components/Testimonials/TestimonialsSection";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <BrandSection />
       <TestimonialsSection />
+      <ImagesGrid />
+      <Footer />
     </div>
   );
 }

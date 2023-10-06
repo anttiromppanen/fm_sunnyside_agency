@@ -64,7 +64,7 @@ function PlainBrandInformationCard({
   const viewportMarginSelector = () => (isBelowMd ? "-100px" : "-300px");
 
   const baseButtonStyles = `
-    absolute bottom-0 left-1/2 h-2 w-[110%] -translate-x-1/2 rounded-full opacity-40 
+    group-hover:!opacity-100 absolute bottom-0 left-1/2 h-2 w-[110%] -translate-x-1/2 rounded-full transition-all duration-200 group-focus:!opacity-100
     ${buttonStyles[buttonColor]}`;
 
   return (
@@ -92,7 +92,7 @@ function PlainBrandInformationCard({
       <motion.button
         variants={animationVariants}
         type="button"
-        className="relative mt-14 font-userHeading font-black tracking-wider text-userDarkHeadingColor"
+        className="group relative mt-14 font-userHeading font-black tracking-wider text-userDarkHeadingColor"
       >
         <p className="relative z-10">LEARN MORE</p>
         <motion.div

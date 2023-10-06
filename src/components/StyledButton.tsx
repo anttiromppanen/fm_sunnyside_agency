@@ -1,6 +1,7 @@
 const colorStyles = {
   yellow: "bg-userYellow",
-  white: "bg-white",
+  white:
+    "bg-white hover:bg-userWhite50Alpha hover:text-white transition-all duration-100",
 };
 
 interface Props {

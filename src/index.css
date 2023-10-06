@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.filter-dark-green {
+  filter: invert(39%) sepia(56%) saturate(411%) hue-rotate(116deg)
+    brightness(55%) contrast(89%);
+}
+
+.filter-white {
+  filter: invert(100%) sepia(50%) saturate(26%) hue-rotate(43deg)
+    brightness(108%) contrast(106%);
+}
