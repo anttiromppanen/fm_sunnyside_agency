@@ -4,16 +4,12 @@ import BrandItem from "./BrandItem";
 
 function BrandSection() {
   return (
-    <div className="md:grid grid-cols-2 auto-rows-[400px] lg:auto-rows-[600px]">
+    <div className="auto-rows-fr grid-cols-2 md:grid">
       <BrandItem
         size="sm"
         bgImageStyle="bg-userYellowEggBgMobile md:bg-userYellowEggBgDesktop"
       />
-      <BrandItem 
-        size="md" 
-        order="-1"
-        bgImageStyle="bg-userLightCardBgColor"
-      >
+      <BrandItem size="md" order="-1" bgImageStyle="bg-userLightCardBgColor">
         <PlainBrandInformationCard
           heading="Transform your brand"
           text="
